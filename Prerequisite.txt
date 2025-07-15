@@ -1,0 +1,6 @@
+Prerequisite:
+C:/Program Files (x86)/ixia/Tcl/8.5.17.0/bin/tclsh.exe
+
+Steps:
+1. Modify "config.ini"
+2. Execute "transceivertest_cli.exe"

@@ -1,0 +1,40 @@
+Port 2
+App,hostElectricalIfName,hostLaneSpeed,hostModulation,hostLaneGroup,hostLaneCount,hostElectricalIfID,mediaIfName,mediaLaneSpeed,mediaLaneGroup,mediaLaneCount,mediaIfID
+1,100GAUI-1-S C2M,106,PAM4,8,1,75,100GBASE-DR,106,8,1,20,
+
+portMode,portModulation,moduleHostLaneGroup,moduleHostLaneCount,appSelId,link,moduleHostElectricalIfName,moduleHostLaneGroup,moduleHostLaneCount,note
+800G-R8,PAM4,8,1,1,M,100GAUI-1-S C2M,8,1,First app matching host lane speed for host id: 0x51 (800G S C2M 8x53.125 PAM4),
+400G-R4,PAM4,8,1,1,M,100GAUI-1-S C2M,8,1,First app matching host lane speed for host id: 0x4f (400GAUI-4-S C2M 4x53.125 PAM4),
+200G-R2,PAM4,8,1,1,M,100GAUI-1-S C2M,8,1,First app matching host lane speed for host id: 0x4d (200GAUI-2-S C2M 2x53.125 PAM4),
+100G-R,PAM4,8,1,1,Y,100GAUI-1-S C2M,8,1,First app matching compatible electrical mode: 0x4b (100GAUI-1-S C2M 1x53.125 PAM4),
+400G-R8,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+200G-R4,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+100G-R2,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+50G-R,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+200G-R8,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+100G-R4,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+50G-R2,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+25G-R,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+
+
+
+Port 4
+App,hostElectricalIfName,hostLaneSpeed,hostModulation,hostLaneGroup,hostLaneCount,hostElectricalIfID,mediaIfName,mediaLaneSpeed,mediaLaneGroup,mediaLaneCount,mediaIfID
+1,100GAUI-1-S C2M,106,PAM4,8,1,75,100GBASE-DR,106,8,1,20,
+
+portMode,portModulation,moduleHostLaneGroup,moduleHostLaneCount,appSelId,link,moduleHostElectricalIfName,moduleHostLaneGroup,moduleHostLaneCount,note
+800G-R8,PAM4,8,1,1,M,100GAUI-1-S C2M,8,1,First app matching host lane speed for host id: 0x51 (800G S C2M 8x53.125 PAM4),
+400G-R4,PAM4,8,1,1,M,100GAUI-1-S C2M,8,1,First app matching host lane speed for host id: 0x4f (400GAUI-4-S C2M 4x53.125 PAM4),
+200G-R2,PAM4,8,1,1,M,100GAUI-1-S C2M,8,1,First app matching host lane speed for host id: 0x4d (200GAUI-2-S C2M 2x53.125 PAM4),
+100G-R,PAM4,8,1,1,Y,100GAUI-1-S C2M,8,1,First app matching compatible electrical mode: 0x4b (100GAUI-1-S C2M 1x53.125 PAM4),
+400G-R8,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+200G-R4,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+100G-R2,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+50G-R,PAM4,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+200G-R8,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+100G-R4,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+50G-R2,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+25G-R,NRZ,8,1,1,N,100GAUI-1-S C2M,8,1,No matching electrical mode,
+
+
+

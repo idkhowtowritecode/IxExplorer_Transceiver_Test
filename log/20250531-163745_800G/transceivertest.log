@@ -1,0 +1,19 @@
+>>>>>>> Start Time: Saturday, May 31, 2025    04:37:46 PM
+
+
+File being sourced : C:\Users\User\AppData\Local\Temp\_MEI326642\transceivertest.tcl
+
+[2025-05-31 16:37:46] Start Framed Test
+Connecting to Chassis 1: 192.168.11.109 ...
+Error: Version mismatch between IxServer and Tcl Client
+isMine: Error getting port 1 1 3
+isMine: Error getting port 1 1 4
+issuePortGroupMethod: -0 Error adding 1.1.3 to Tx Port Group.
+issuePortGroupMethod: -0 Error adding 1.1.4 to Tx Port Group.
+issuePortGroupMethod: Error setting command takeOwnership for port group 710 - ixTcl_generalError
+ixTakeOwnership: Error taking ownership on requested ports
+[2025-05-31 16:37:52] Switch Speed to 800G
+[2025-05-31 16:37:52] Error calling resourceGroupEx set 1 1 3
+
+>>>>>>> End Time: Saturday, May 31, 2025    04:37:52 PM
+Actual Duration of Test: 00:00:06 seconds

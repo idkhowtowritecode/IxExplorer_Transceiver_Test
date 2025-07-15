@@ -1,0 +1,13 @@
+>>>>>>> Start Time: Tuesday, Jun 03, 2025    11:24:46 PM
+
+
+File being sourced : C:\Users\User\Desktop\Ixia automation\IxExplorer_Transceiver_Test\transceivertest.tcl
+
+[2025-06-03 23:24:46] Start Framed Test
+Connecting to Chassis 1: 192.168.11.109 ...
+Took ownership of following ports:
+{1 1 123}
+[2025-06-03 23:24:48] Switch Speed to 400G
+
+>>>>>>> End Time: Tuesday, Jun 03, 2025    11:24:48 PM
+Actual Duration of Test: 00:00:02 seconds

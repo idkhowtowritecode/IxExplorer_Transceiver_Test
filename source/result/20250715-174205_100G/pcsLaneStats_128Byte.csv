@@ -1,0 +1,17 @@
+Physical Lane,PCS Lane Marker Lock,PCS Lane Marker Map,Relative Lane Skew (ns),PCS Lane Marker Error Count,FEC Symbol Error Count,FEC Corrected Bits Count,FEC Symbol Error Rate,FEC Corrected Bit Rate
+Port 1
+Totals, 1,0,0.0,0,0,0,0.0,0.0,
+Lane-0,1,1,0.0,0,0,0,0.0,0.0,
+Lane-1,1,2,0.0,0,0,0,0.0,0.0,
+Lane-2,1,3,0.0,0,0,0,0.0,0.0,
+
+
+
+Port 2
+Totals, 1,0,3.103,0,0,0,0.0,0.0,
+Lane-0,1,1,0.0,0,0,0,0.0,0.0,
+Lane-1,1,2,0.0,0,0,0,0.0,0.0,
+Lane-2,1,3,0.0,0,0,0,0.0,0.0,
+
+
+

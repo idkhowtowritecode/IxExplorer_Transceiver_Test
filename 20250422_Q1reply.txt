@@ -1,0 +1,6 @@
+1. 請先確認test flow，transceiverDOM的數據目前只有在跑第一個frame size後會做snapshot
+2. 目前所有圖表皆與最初提供的Report一致，請先內部確認
+3. 目前所有圖表皆與最初提供的Report一致，請先內部確認
+4. 請先了解test flow，測試是依照config.ini決定跑BER Test或是L2 Test，並分別產出report
+5. 這可做更改
+6. 目前所有圖表皆與最初提供的Report一致，請先內部確認

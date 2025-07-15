@@ -1,0 +1,68 @@
+Basic Info,Port 1
+manufacturer,Amphenol
+model,NJMYE6-0001
+serialNumber,APF23350014Y55
+transceiverTypeProperty,PassiveCopper
+revComplianceProperty,CMIS 5.0
+dateCodeProperty,230916
+mediaTechProperty,Copper cable unequalized
+mediaConnectorProperty,No separable connector
+identifierTypeProperty,QSFP-DD
+powerClassProperty,1
+maxPowerProperty,0.250000 W
+
+Module,High Alarm,High Warn,Low Warn,Low Alarm
+Temperature,-0.001 C,-0.001 C,-0.001 C,-0.001 C,
+Supply Voltage,-0.000 V,-0.000 V,-0.000 V,-0.000 V,
+
+Lane Limits,High Alarm,High Warn,Low Warn,Low Alarm
+Tx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Rx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Tx Bias Current,-0.001 mA,-0.001 mA,-0.001 mA,-0.001 mA,
+
+Host Lanes,Port,Data Path State,Tx LOS,Tx CDR LOL,Media Lane,Tx Optical Power,Tx Bias Current,Rx Optical Power,Rx LOS,Rx CDR LOL
+1,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+2,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+3,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+4,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+5,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+6,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+7,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+8,1.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+
+
+
+Basic Info,Port 3
+manufacturer,Amphenol
+model,NJMYE6-0001
+serialNumber,APF23350014Y55
+transceiverTypeProperty,PassiveCopper
+revComplianceProperty,CMIS 5.0
+dateCodeProperty,230916
+mediaTechProperty,Copper cable unequalized
+mediaConnectorProperty,No separable connector
+identifierTypeProperty,OSFP
+powerClassProperty,1
+maxPowerProperty,0.250000 W
+
+Module,High Alarm,High Warn,Low Warn,Low Alarm
+Temperature,-0.001 C,-0.001 C,-0.001 C,-0.001 C,
+Supply Voltage,-0.000 V,-0.000 V,-0.000 V,-0.000 V,
+
+Lane Limits,High Alarm,High Warn,Low Warn,Low Alarm
+Tx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Rx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Tx Bias Current,-0.001 mA,-0.001 mA,-0.001 mA,-0.001 mA,
+
+Host Lanes,Port,Data Path State,Tx LOS,Tx CDR LOL,Media Lane,Tx Optical Power,Tx Bias Current,Rx Optical Power,Rx LOS,Rx CDR LOL
+1,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+2,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+3,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+4,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+5,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+6,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+7,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+8,3.1,0,No,No,0,-40.00 dBm,0.000 mA,-40.00 dBm,No,No
+
+
+

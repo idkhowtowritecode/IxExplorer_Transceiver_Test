@@ -1,0 +1,68 @@
+Basic Info,Port 122
+manufacturer,Eoptolink
+model,EOLD-138HG-5H-SM
+serialNumber,DN4D180001
+transceiverTypeProperty,100GBASE-DR
+revComplianceProperty,CMIS 5.0
+dateCodeProperty,220426
+mediaTechProperty,1310 nm DFB
+mediaConnectorProperty,MPO 1x16
+identifierTypeProperty,QSFP-DD
+powerClassProperty,8
+maxPowerProperty,18.000000 W
+
+Module,High Alarm,High Warn,Low Warn,Low Alarm
+Temperature,78 C,73 C,-3 C,-8 C,
+Supply Voltage,3.630 V,3.465 V,3.135 V,2.970 V,
+
+Lane Limits,High Alarm,High Warn,Low Warn,Low Alarm
+Tx Optical Power,  6.00 dBm,  5.00 dBm, -3.90 dBm, -4.90 dBm,
+Rx Optical Power,  6.50 dBm,  5.50 dBm, -7.40 dBm, -8.40 dBm,
+Tx Bias Current,400.000 mA,380.000 mA,15.000 mA,10.000 mA,
+
+Host Lanes,Port,Data Path State,Tx LOS,Tx CDR LOL,Media Lane,Tx Optical Power,Tx Bias Current,Rx Optical Power,Rx LOS,Rx CDR LOL
+1,2.1,Activated (4),No,No,1,  3.13 dBm,222.888 mA,  0.74 dBm,No,No
+2,2.1,Activated (4),No,No,2,  2.71 dBm,223.376 mA,  2.24 dBm,No,No
+3,2.1,Activated (4),No,No,3,  1.37 dBm,205.272 mA,  1.61 dBm,No,No
+4,2.1,Activated (4),No,No,4,  1.62 dBm,205.632 mA, -3.77 dBm,No,No
+5,2.1,Activated (4),No,No,5,  3.03 dBm,202.352 mA,  0.24 dBm,No,No
+6,2.1,Activated (4),No,No,6,  2.74 dBm,202.472 mA,  0.05 dBm,No,No
+7,2.1,Activated (4),No,No,7,  2.96 dBm,203.928 mA,  2.08 dBm,No,No
+8,2.1,Activated (4),No,No,8,  2.66 dBm,203.928 mA, -0.99 dBm,No,No
+
+
+
+Basic Info,Port 124
+manufacturer,Eoptolink
+model,EOLO-138HG-5H-SM
+serialNumber,UNA8490003
+transceiverTypeProperty,100GBASE-DR
+revComplianceProperty,CMIS 5.0
+dateCodeProperty,221109
+mediaTechProperty,1310 nm DFB
+mediaConnectorProperty,MPO 1x16
+identifierTypeProperty,OSFP
+powerClassProperty,8
+maxPowerProperty,18.000000 W
+
+Module,High Alarm,High Warn,Low Warn,Low Alarm
+Temperature,78 C,73 C,-3 C,-8 C,
+Supply Voltage,3.630 V,3.465 V,3.135 V,2.970 V,
+
+Lane Limits,High Alarm,High Warn,Low Warn,Low Alarm
+Tx Optical Power,  6.00 dBm,  5.00 dBm, -3.90 dBm, -4.90 dBm,
+Rx Optical Power,  6.50 dBm,  5.50 dBm, -7.40 dBm, -8.40 dBm,
+Tx Bias Current,400.000 mA,380.000 mA,15.000 mA,10.000 mA,
+
+Host Lanes,Port,Data Path State,Tx LOS,Tx CDR LOL,Media Lane,Tx Optical Power,Tx Bias Current,Rx Optical Power,Rx LOS,Rx CDR LOL
+1,4.1,Activated (4),No,No,1,  2.43 dBm,231.952 mA,  3.94 dBm,No,No
+2,4.1,Activated (4),No,No,2,  2.24 dBm,231.488 mA,  3.13 dBm,No,No
+3,4.1,Activated (4),No,No,3,  2.36 dBm,206.896 mA,  2.04 dBm,No,No
+4,4.1,Activated (4),No,No,4,  2.27 dBm,206.896 mA,  2.31 dBm,No,No
+5,4.1,Activated (4),No,No,5,  2.09 dBm,176.144 mA,  3.37 dBm,No,No
+6,4.1,Activated (4),No,No,6,  2.04 dBm,174.264 mA,  3.29 dBm,No,No
+7,4.1,Activated (4),No,No,7,  2.14 dBm,173.776 mA,  3.18 dBm,No,No
+8,4.1,Activated (4),No,No,8,  2.03 dBm,173.896 mA,  2.12 dBm,No,No
+
+
+

@@ -1,0 +1,22 @@
+>>>>>>> Start Time: Thursday, Apr 24, 2025    03:09:52 PM
+
+
+File being sourced : C:\Users\User\AppData\Local\Temp\_MEI360602\transceivertest.tcl
+
+[2025-04-24 15:09:52] Start Framed Test
+Connecting to Chassis 1: 192.168.11.53 ...
+Took ownership of following ports:
+{1 1 3} {1 1 4}
+[2025-04-24 15:09:56] Switch Speed to 800G
+[2025-04-24 15:10:18] Config Port
+Resetting Statistics ...
+[2025-04-24 15:10:54] Running Traffic
+[2025-04-24 15:11:56] Collect Result
+[2025-04-24 15:11:56] Collecting portStats
+[2025-04-24 15:11:56] Collecting portPcsLaneStats
+[2025-04-24 15:11:58] Collecting transceiverDomStats
+[2025-04-24 15:11:58] Collecting transceiverAppSelStats
+[2025-04-24 15:11:58] Collecting i2cStats
+
+>>>>>>> End Time: Thursday, Apr 24, 2025    03:12:03 PM
+Actual Duration of Test: 00:02:11 seconds

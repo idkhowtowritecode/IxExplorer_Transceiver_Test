@@ -1,0 +1,14 @@
+>>>>>>> Start Time: Wednesday, Apr 23, 2025    10:51:46 AM
+
+
+File being sourced : C:\Users\User\AppData\Local\Temp\_MEI391522\transceivertest.tcl
+
+[2025-04-23 10:51:46] Start Framed Test
+Connecting to Chassis 1: 192.168.11.53 ...
+Took ownership of following ports:
+{1 1 2} {1 1 1}
+[2025-04-23 10:51:52] Switch Speed to 800G
+[2025-04-23 10:51:52] Error calling resourceGroupEx set 1 1 1
+
+>>>>>>> End Time: Wednesday, Apr 23, 2025    10:51:52 AM
+Actual Duration of Test: 00:00:06 seconds

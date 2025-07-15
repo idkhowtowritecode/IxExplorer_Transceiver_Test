@@ -1,0 +1,1 @@
+2025-06-12T17:07:24.359314	79f8	192.168.10.194:11632 => 192.168.10.226:1080	00875970	CSocketEx::Read() failed due to serialization error.

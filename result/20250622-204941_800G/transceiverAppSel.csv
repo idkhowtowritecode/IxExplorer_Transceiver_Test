@@ -1,0 +1,26 @@
+Port 1
+App,hostElectricalIfName,hostLaneSpeed,hostModulation,hostLaneGroup,hostLaneCount,hostElectricalIfID,mediaIfName,mediaLaneSpeed,mediaLaneGroup,mediaLaneCount,mediaIfID
+1,800GBASE-CR8,106,PAM4,1,8,73,PassiveCopper,,0,8,1,
+2,400GBASE-CR4,106,PAM4,2,4,72,PassiveCopper,,0,8,1,
+3,400GBASE-CR8,53,PAM4,1,8,29,PassiveCopper,,0,8,1,
+4,200GBASE-CR4,53,PAM4,2,4,28,PassiveCopper,,0,8,1,
+5,100GBASE-CR4,26,NRZ,2,4,26,PassiveCopper,,0,8,1,
+6,40GBASE-CR4,10,NRZ,2,4,23,PassiveCopper,,0,8,1,
+
+portMode,portModulation,moduleHostLaneGroup,moduleHostLaneCount,appSelId,link,moduleHostElectricalIfName,moduleHostLaneGroup,moduleHostLaneCount,note
+
+
+
+Port 3
+App,hostElectricalIfName,hostLaneSpeed,hostModulation,hostLaneGroup,hostLaneCount,hostElectricalIfID,mediaIfName,mediaLaneSpeed,mediaLaneGroup,mediaLaneCount,mediaIfID
+1,800GBASE-CR8,106,PAM4,1,8,73,PassiveCopper,,0,8,1,
+2,400GBASE-CR4,106,PAM4,2,4,72,PassiveCopper,,0,8,1,
+3,400GBASE-CR8,53,PAM4,1,8,29,PassiveCopper,,0,8,1,
+4,200GBASE-CR4,53,PAM4,2,4,28,PassiveCopper,,0,8,1,
+5,100GBASE-CR4,26,NRZ,2,4,26,PassiveCopper,,0,8,1,
+6,40GBASE-CR4,10,NRZ,2,4,23,PassiveCopper,,0,8,1,
+
+portMode,portModulation,moduleHostLaneGroup,moduleHostLaneCount,appSelId,link,moduleHostElectricalIfName,moduleHostLaneGroup,moduleHostLaneCount,note
+
+
+

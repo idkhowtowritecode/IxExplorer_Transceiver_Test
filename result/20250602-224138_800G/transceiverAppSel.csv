@@ -1,0 +1,15 @@
+Port 3
+App,hostElectricalIfName,hostLaneSpeed,hostModulation,hostLaneGroup,hostLaneCount,hostElectricalIfID,mediaIfName,mediaLaneSpeed,mediaLaneGroup,mediaLaneCount,mediaIfID
+1,800GBASE-CR8,106,PAM4,1,8,73,PassiveCopper,,0,8,1,
+2,400GBASE-CR4,106,PAM4,2,4,72,PassiveCopper,,0,4,1,
+3,200GBASE-CR2,106,PAM4,4,2,71,PassiveCopper,,0,2,1,
+4,100GBASE-CR1,106,PAM4,8,1,70,PassiveCopper,,0,1,1,
+5,400GBASE-CR8,53,PAM4,1,8,29,PassiveCopper,,0,8,1,
+6,200GBASE-CR4,53,PAM4,2,4,28,PassiveCopper,,0,4,1,
+7,100GBASE-CR2,53,PAM4,4,2,27,PassiveCopper,,0,2,1,
+8,50GBASE-CR,53,PAM4,8,1,24,PassiveCopper,,0,1,1,
+
+portMode,portModulation,moduleHostLaneGroup,moduleHostLaneCount,appSelId,link,moduleHostElectricalIfName,moduleHostLaneGroup,moduleHostLaneCount,note
+
+
+

@@ -1,0 +1,52 @@
+>>>>>>> Start Time: Sunday, Apr 13, 2025    11:45:17 PM
+
+
+File being sourced : C:\Users\User\AppData\Local\Temp\_MEI46922\transceivertest.tcl
+
+[2025-04-13 23:45:17] Start Framed Test
+Connecting to Chassis 1: 192.168.11.53 ...
+Took ownership of following ports:
+{1 1 3} {1 1 4}
+[2025-04-13 23:45:22] Switch Speed to 800G
+[2025-04-13 23:45:44] Config Port
+Resetting Statistics ...
+[2025-04-13 23:46:20] Running Traffic
+[2025-04-13 23:47:21] Collect Result
+[2025-04-13 23:47:21] Collecting portStats
+[2025-04-13 23:47:21] Collecting portPcsLaneStats
+[2025-04-13 23:47:23] Collecting transceiverDomStats
+[2025-04-13 23:47:23] Collecting transceiverAppSelStats
+[2025-04-13 23:47:23] Collecting i2cStats
+Resetting Statistics ...
+[2025-04-13 23:48:02] Running Traffic
+[2025-04-13 23:49:03] Collect Result
+[2025-04-13 23:49:03] Collecting portStats
+[2025-04-13 23:49:03] Collecting portPcsLaneStats
+Resetting Statistics ...
+[2025-04-13 23:49:40] Running Traffic
+[2025-04-13 23:50:41] Collect Result
+[2025-04-13 23:50:41] Collecting portStats
+[2025-04-13 23:50:41] Collecting portPcsLaneStats
+Resetting Statistics ...
+[2025-04-13 23:51:18] Running Traffic
+[2025-04-13 23:52:19] Collect Result
+[2025-04-13 23:52:19] Collecting portStats
+[2025-04-13 23:52:20] Collecting portPcsLaneStats
+Resetting Statistics ...
+[2025-04-13 23:52:57] Running Traffic
+[2025-04-13 23:53:58] Collect Result
+[2025-04-13 23:53:58] Collecting portStats
+[2025-04-13 23:53:58] Collecting portPcsLaneStats
+Resetting Statistics ...
+[2025-04-13 23:54:35] Running Traffic
+[2025-04-13 23:55:36] Collect Result
+[2025-04-13 23:55:36] Collecting portStats
+[2025-04-13 23:55:36] Collecting portPcsLaneStats
+Resetting Statistics ...
+[2025-04-13 23:56:14] Running Traffic
+[2025-04-13 23:57:15] Collect Result
+[2025-04-13 23:57:15] Collecting portStats
+[2025-04-13 23:57:15] Collecting portPcsLaneStats
+
+>>>>>>> End Time: Sunday, Apr 13, 2025    11:57:17 PM
+Actual Duration of Test: 00:12:00 seconds
