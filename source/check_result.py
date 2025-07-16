@@ -62,6 +62,8 @@ class result(object):
 
     def compare_port_pair(self, stats: dict):
         port_pairs = self.make_port_pairs(list(stats.keys()))
+        # no port_pairs means only one port is present
+        # so we calculate loss frames and loss percentage based on framesSent and framesReceived of that
         if port_pairs == []:
             p1 = list(stats.keys())[0]
             tx = stats.get(p1, {}).get("framesSent", 0)

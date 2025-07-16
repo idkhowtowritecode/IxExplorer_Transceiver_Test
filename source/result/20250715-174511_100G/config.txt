@@ -1,23 +1,22 @@
 [TEST]
-; host = 10.1.25.12
-host = 192.168.11.109
+host = 10.1.25.12
 ixos_version = 10.80.8001.4
 
 # Tester is a para used to identify the type of tester being used
 # Options: AresONE800MDUAL, SERT100G
-tester = AresONE800MDUAL
-test_ports = 1 2
+tester = SERT100G
+test_ports = 1 2 3 4
 test_mode =  Framed
 #test_mode = Framed
 test_duration = 30
-; test_frameSize_list = 64 128 256 512 1024 1280 1518
-test_frameSize_list = 64 128
+test_frameSize_list = 64 128 256 512 1024 1280 1518
+#test_frameSize_list = 64 128
 # 800 400
-test_speed = 400
+test_speed = 100
 # serdes : 112 for PAM4 800G, 56 for NRZ 100G, sert for ranger
 # 112 56 sert
-serdes = 112
-; serdes = sert
+; serdes = 112
+serdes = sert
 wait_time_before_startTest = 30
 
 [THRESHOLD]

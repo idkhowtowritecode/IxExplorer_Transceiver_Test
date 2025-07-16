@@ -1,0 +1,78 @@
+(TclScripts) 145 % resourceGroupEx get 1 1 1
+0
+(TclScripts) 146 % resourceGroupEx setDefault
+(TclScripts) 147 % resourceGroupEx config -mode 50000
+(TclScripts) 148 % resourceGroupEx set 1 1 1
+0
+(TclScripts) 149 % resourceGroupEx write 1 1 1
+0
+
+
+(TclScripts) 150 % resourceGroupEx get 1 1 5
+0
+(TclScripts) 151 % resourceGroupEx setDefault
+(TclScripts) 152 % resourceGroupEx config -mode 25000
+(TclScripts) 153 % resourceGroupEx set 1 1 5
+0
+(TclScripts) 154 % resourceGroupEx write 1 1 5
+
+
+port stat in sert 100G:
+{ -this  -link -transmitState -captureState -pauseState -lineSpeed -scheduledTransmitTime -mode 
+-includeRprPayloadFcsInCrc -enableProtocolServerStats -enableArpStats -enableIcmpStats
+ -enableDhcpStats -enableDhcpV6Stats  -enableUsbExtendedStats -enablePosExtendedStats
+ -enableTemperatureSensorsStats -enableAtmOamStats -enableEthernetOamStats -enablePtpStats
+ -enableBgpStats -enableOspfStats -enableIsisStats -enableRsvpStats -enableLdpStats
+ -enableIgmpStats -enableOspfV3Stats -enablePimsmStats -enableMldStats -enableStpStats
+ -enableEigrpStats -enableBfdStats -enableCfmStats -enableLacpStats -enableOamStats
+ -enableMplsTpStats -enableElmiStats -enableFcoeStats -fcoeRxSharedStatType1 
+ -fcoeRxSharedStatType2 -enableLldpDcbxStats -enableNeighborSolicitStats 
+ -framesSent -framesReceived -bytesSent -fragments -undersize -oversize -fcsErrors
+ -flowControlFrames -oversizeAndCrcErrors -portTemperature -pauseEndFrames -pauseOverwrite 
+ -bytesReceived -vlanTaggedFramesRx -userDefinedStat1 -userDefinedStat2 -captureTrigger 
+ -captureFilter -streamTrigger1 -streamTrigger2 -txArpReply -txArpRequest -txPingReply 
+ -txPingRequest -rxArpReply -rxArpRequest -rxPingReply -rxPingRequest -protocolServerTx 
+ -protocolServerRx -protocolServerVlanDroppedFrames -dataIntegrityFrames -dataIntegrityErrors 
+ -transmitDuration -sequenceFrames -sequenceErrors -scheduledFramesSent -asynchronousFramesSent
+ -portCPUFramesSent -linkFaultState -localFaults -remoteFaults -bitsSent -bitsReceived -portCpuStatus 
+ -portCpuDodStatus -droppedFrames -egressDroppedFrames -pcsSyncErrorsReceived -pcsIllegalCodesReceived 
+ -pcsRemoteFaultsReceived -pcsLocalFaultsReceived -pcsIllegalOrderedSetReceived -pcsIllegalIdleReceived 
+ -pcsIllegalSofReceived -portCpuFramesReceived -portCpuBytesReceived -rxPausePriorityGroup0Frames 
+ -rxPausePriorityGroup1Frames -rxPausePriorityGroup2Frames -rxPausePriorityGroup3Frames -rxPausePriorityGroup4Frames
+ -rxPausePriorityGroup5Frames -rxPausePriorityGroup6Frames -rxPausePriorityGroup7Frames -txNeighborSolicits
+ -txNeighborAdvertisements -rxNeighborSolicits -rxNeighborAdvertisements -fecTotalSymbolErrors 
+ -fecCorrectedCodewords -fecUncorrectableCodewords -fecTotalCodewords -fecFrameLossRatio -l1BitsSent -l1BitsReceived 
+-l1LineRatePercentTx -l1LineRatePercentRx -linkUpCount -fecStatus -transceiverTemp -transceiverVoltage }
+
+port stat in code we try to extract with portStat(framed)
+{link lineSpeed transmitDuration framesSent framesReceived fragments undersize oversizeAndCrcErrors 
+vlanTaggedFramesRx flowControlFrames bitsSent bitsReceived pcsSyncErrorsReceived pcsRemoteFaultsReceived 
+pcsLocalFaultsReceived fecCorrectedCodewords fecTotalCodewords 
+fecFrameLossRatio fecUncorrectableCodewords  l1BitsSent
+ l1BitsReceived transceiverTemp  fecStatus transceiverVoltage}
+ 
+ 
+ "link lineSpeed transmitDuration framesSent framesReceived fragments undersize 
+ oversizeAndCrcErrors vlanTaggedFramesRx flowControlFrames bitsSent bitsReceived 
+ pcsSyncErrorsReceived pcsRemoteFaultsReceived pcsLocalFaultsReceived fecTotalBitErrors 
+ fecMaxSymbolErrors fecCorrectedCodewords fecTotalCodewords fecFrameLossRatio 
+ preFecBer fecMaxSymbolErrorsBin0 fecMaxSymbolErrorsBin1 fecMaxSymbolErrorsBin2 
+ fecMaxSymbolErrorsBin3 fecMaxSymbolErrorsBin4 fecMaxSymbolErrorsBin5 fecMaxSymbolErrorsBin6 
+ fecMaxSymbolErrorsBin7 fecMaxSymbolErrorsBin8 fecMaxSymbolErrorsBin9 fecMaxSymbolErrorsBin10 
+ fecMaxSymbolErrorsBin11 fecMaxSymbolErrorsBin12 fecMaxSymbolErrorsBin13 fecMaxSymbolErrorsBin14
+ fecMaxSymbolErrorsBin15 fecUncorrectableCodewords fecTranscodingUncorrectableErrors l1BitsSent 
+ l1BitsReceived transceiverTemp encoding fecStatus transceiverVoltage"
+ 
+ 
+ 
+ 
+ # stream config example:
+ 
+ set portList {}
+ port resetStreamProtocolStack 1 1 12
+ lappend portList [list 1 1 12]
+ set streamId 1
+ stream setDefault
+ stream config -name  "AAA"
+ stream set 1 1 12 1
+ ixWriteConfigToHardware portList -noProtocolServer
