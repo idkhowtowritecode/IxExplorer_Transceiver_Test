@@ -81,9 +81,9 @@ class result(object):
                 stats[p2]['Loss_Frames'] = int(p2_tx) - int(p1_rx)
                 stats[p2]['Loss%'] = (int(p2_tx) - int(p1_rx)) / int(p2_tx)
                 stats[p1]['framesSent'] = p1_tx
-                stats[p1]['framesReceived'] = p2_rx
+                stats[p1]['framesReceived'] = p1_rx
                 stats[p2]['framesSent'] = p2_tx
-                stats[p2]['framesReceived'] = p1_rx
+                stats[p2]['framesReceived'] = p2_rx
         return stats
     
     @timer

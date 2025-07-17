@@ -1,0 +1,60 @@
+Basic Info,Port 1
+manufacturer,Molex
+model,1002971301
+serialNumber,629420861
+transceiverTypeProperty,PassiveCopper
+revComplianceProperty,SFF-8636 2.5
+dateCodeProperty,161020
+mediaTechProperty,Copper cable unequalized
+mediaConnectorProperty,No separable connector
+identifierTypeProperty,QSFP28
+powerClassProperty,1
+maxPowerProperty,1.500000 W
+
+Module,High Alarm,High Warn,Low Warn,Low Alarm
+Temperature,-0.001 C,-0.001 C,-0.001 C,-0.001 C,
+Supply Voltage,-0.000 V,-0.000 V,-0.000 V,-0.000 V,
+
+Lane Limits,High Alarm,High Warn,Low Warn,Low Alarm
+Tx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Rx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Tx Bias Current,-0.001 mA,-0.001 mA,-0.001 mA,-0.001 mA,
+
+Host Lanes,Port,Data Path State,Tx LOS,Tx CDR LOL,Media Lane,Tx Optical Power,Tx Bias Current,Rx Optical Power,Rx LOS,Rx CDR LOL
+1,1.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+2,1.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+3,1.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+4,1.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+
+
+
+Basic Info,Port 2
+manufacturer,Molex
+model,1002971301
+serialNumber,629420861
+transceiverTypeProperty,PassiveCopper
+revComplianceProperty,SFF-8636 2.5
+dateCodeProperty,161020
+mediaTechProperty,Copper cable unequalized
+mediaConnectorProperty,No separable connector
+identifierTypeProperty,QSFP28
+powerClassProperty,1
+maxPowerProperty,1.500000 W
+
+Module,High Alarm,High Warn,Low Warn,Low Alarm
+Temperature,-0.001 C,-0.001 C,-0.001 C,-0.001 C,
+Supply Voltage,-0.000 V,-0.000 V,-0.000 V,-0.000 V,
+
+Lane Limits,High Alarm,High Warn,Low Warn,Low Alarm
+Tx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Rx Optical Power,-40.00 dBm,-40.00 dBm,-40.00 dBm,-40.00 dBm,
+Tx Bias Current,-0.001 mA,-0.001 mA,-0.001 mA,-0.001 mA,
+
+Host Lanes,Port,Data Path State,Tx LOS,Tx CDR LOL,Media Lane,Tx Optical Power,Tx Bias Current,Rx Optical Power,Rx LOS,Rx CDR LOL
+1,2.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+2,2.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+3,2.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+4,2.1,0,0,0,0,-40.00 dBm,0.000 mA,-40.00 dBm,0,0
+
+
+

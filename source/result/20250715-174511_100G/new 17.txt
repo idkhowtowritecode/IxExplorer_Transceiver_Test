@@ -76,3 +76,138 @@ fecFrameLossRatio fecUncorrectableCodewords  l1BitsSent
  stream config -name  "AAA"
  stream set 1 1 12 1
  ixWriteConfigToHardware portList -noProtocolServer
+ 
+ 
+ result
+├── __init__
+├── process
+│   ├── process_port_stats
+│   │   ├── ber_summary (if unframed)
+│   │   ├── l2_summary (if framed)
+│   │   ├── fec_Summary (if framed)
+│   │   └── compare_port_pair (if framed)
+│   ├── process_dom_stats
+│   ├── process_pcs_lane_stats
+│   ├── process_app_sel_stats
+│   ├── process_bert_lane_stats
+│   └── process_i2c_stats
+├── save
+│   ├── save_port_stats
+│   ├── save_pcs_stats
+│   ├── save_dom_stats
+│   ├── save_app_sel_stats
+│   ├── save_bert_lane_stats
+│   └── save_i2c_stats
+├── format_seconds_to_HHMMSS
+├── make_port_pairs
+├── compare_port_pair
+├── l2_summary
+├── fec_Summary
+├── ber_summary
+├── process_port_stats
+├── process_pcs_lane_stats
+├── process_dom_stats
+├── process_app_sel_stats
+├── findPrbsPattern
+├── findLock
+├── process_bert_lane_stats
+├── process_i2c_stats
+├── save_port_stats
+├── save_pcs_stats
+├── save_dom_stats
+├── save_app_sel_stats
+├── save_bert_lane_stats
+└── save_i2c_stats
+
+
+Main Script Execution
+│
+├─ logAndTakeOwnership
+│   ├─ ixLogin
+│   └─ ixTakeOwnership
+│
+├─ switchPortSpeed
+│   ├─ resourceGroupEx get/config/set/writeAll/setDefault/setAll
+│   ├─ createActivePortList
+│   └─ logMsg, timeFormatLog
+│
+├─ configPort
+│   ├─ bert setDefault/config/set
+│   ├─ port get/config/set
+│   ├─ packetGroup setDefault/config/setRx
+│   ├─ dataIntegrity setDefault/config/setRx
+│   ├─ autoDetectInstrumentation setDefault/config/setRx
+│   └─ ixWritePortsToHardware
+│
+├─ configStream
+│   ├─ stream setDefault/config/set
+│   ├─ udf setDefault/config
+│   ├─ packetGroup setDefault/config/setTx
+│   ├─ dataIntegrity setDefault/config/setTx
+│   ├─ autoDetectInstrumentation setDefault/config/setTx
+│   └─ ixWriteConfigToHardware
+│
+├─ startTest
+│   ├─ stat clearBertLane
+│   ├─ ixStopTransmit
+│   ├─ clearPcsLaneStatistics
+│   ├─ ixClearPacketGroups
+│   ├─ ixClearStats
+│   ├─ ixStartTransmit
+│   ├─ ixStartPacketGroups
+│   ├─ ixSetScheduledTransmitTime
+│   ├─ ixCheckTransmitDone
+│   └─ ixStopPacketGroups
+│
+├─ getResult
+│   ├─ getPortStats
+│   ├─ getPortPcsLaneStats
+│   ├─ getTransceiverDomStats
+│   ├─ getTransceiverAppSelStats
+│   ├─ getBertLaneStats
+│   └─ getI2cStats
+│
+│   ├─ getPortStats
+│   │   ├─ ixRequestStats
+│   │   ├─ statList setDefault/get/cget
+│   │   ├─ packetGroupStats get/cget
+│   │   └─ file write
+│   ├─ getPortPcsLaneStats
+│   │   ├─ txLane getLaneList
+│   │   ├─ pcsLaneStatistics setDefault/get/getLane/cget
+│   │   └─ file write
+│   ├─ getTransceiverDomStats
+│   │   ├─ transceiverDOM get/getValue
+│   │   ├─ transceiver get/cget/getValue
+│   │   └─ file write
+│   ├─ getTransceiverAppSelStats
+│   │   ├─ transceiverAppSel get/setDefault/cget/getCount
+│   │   ├─ transceiverAppSelPreview get/setDefault/cget
+│   │   └─ file write
+│   ├─ getBertLaneStats
+│   │   ├─ stat setDefault/getBertLane/cget
+│   │   └─ file write
+│   └─ getI2cStats
+│       ├─ transceiver get/cget/getValue
+│       ├─ readTxcvrPage
+│       │   └─ getDeviceNum
+│       ├─ accessTxcvrReg
+│       │   └─ mmd getRegister/mmdRegister cget
+│       └─ file write
+│
+├─ clearOwnershipAndLogout
+│   ├─ ixClearOwnership
+│   ├─ ixLogout
+│   └─ cleanUp
+│
+└─ Utility Procedures
+    ├─ timeFormatLog
+    ├─ createActivePortList
+    ├─ getDeviceNum
+    ├─ readTxcvrPage
+    └─ accessTxcvrReg
+	
+to do
+1. web gui base(electron)
+2. csv export interface improvement
+3. multi port testing

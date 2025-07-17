@@ -1,0 +1,22 @@
+>>>>>>> Start Time: Thursday, Jul 17, 2025    09:55:54 AM
+
+
+File being sourced : C:\Users\llam\Desktop\IxiaAuto\IxExplorer_Transceiver_Test\source\transceivertest.tcl
+
+[2025-07-17 09:55:54] Start Framed Test
+Connecting to Chassis 1: 10.1.25.12 ...
+Took ownership of following ports:
+{1 1 2} {1 1 3} {1 1 4} {1 1 1}
+[2025-07-17 09:55:55] Switch Speed to 100G
+[2025-07-17 09:56:17] Config Port
+Resetting Statistics ...
+[2025-07-17 09:56:52] Running Traffic
+[2025-07-17 09:57:23] Collect Result
+[2025-07-17 09:57:23] Collecting portStats
+[2025-07-17 09:57:23] Collecting portPcsLaneStats
+[2025-07-17 09:57:23] Collecting transceiverDomStats
+[2025-07-17 09:57:24] Collecting transceiverAppSelStats
+[2025-07-17 09:57:24] Collecting i2cStats
+
+>>>>>>> End Time: Thursday, Jul 17, 2025    09:57:27 AM
+Actual Duration of Test: 00:01:33 seconds

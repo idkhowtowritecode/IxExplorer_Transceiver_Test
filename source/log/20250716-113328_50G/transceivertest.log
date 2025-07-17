@@ -1,0 +1,15 @@
+>>>>>>> Start Time: Wednesday, Jul 16, 2025    11:33:32 AM
+
+
+File being sourced : C:\Users\llam\Desktop\IxiaAuto\IxExplorer_Transceiver_Test\source\transceivertest.tcl
+
+[2025-07-16 11:33:32] Start Framed Test
+Connecting to Chassis 1: 10.1.25.12 ...
+issuePortGroupMethod: Error setting command takeOwnership for port group 710 - ixTcl_generalError
+ixTakeOwnership: Error taking ownership on requested ports
+[2025-07-16 11:33:43] Switch Speed to 50G
+[2025-07-16 11:35:56] Config Port
+[2025-07-16 11:35:56] Error calling port set 1 1 61
+
+>>>>>>> End Time: Wednesday, Jul 16, 2025    11:35:56 AM
+Actual Duration of Test: 00:02:24 seconds
